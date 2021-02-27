@@ -13,6 +13,7 @@
 .conteiner{
   width: 80%;
   margin:  0 auto;
+  margin-top: 0;
 }
 
 .logo{
@@ -84,7 +85,7 @@ nav li a:hover{
   height: 100px;
   margin-top: 20px;
   
-  margin-bottom: 20px;
+  
 }
 .title h1 {
   font-size: 45px;
@@ -97,7 +98,7 @@ nav li a:hover{
 
 .col{
   float: left;
-  background-color: cadetblue ;
+ 
   height: 600px;
 }
 
@@ -109,6 +110,35 @@ nav li a:hover{
 .col-center{
   width: 56%;
   margin: 0 2%;
+}
+
+.img{
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border: 1px solid rgb(144, 144, 144);
+  border-radius: 25px;
+  margin-bottom: 30px;
+
+  
+
+}
+
+.img-left{
+  background-image: url("../img/img-1.jpg");
+  
+}
+
+.img-center{
+  background-image: url("../img/banner-2.jpg");
+  
+
+}
+
+.img-right{
+  background-image: url("../img/img-3.jpg");
 }
 
 footer{
@@ -124,4 +154,9 @@ footer span::after{
   color: #f85f5f;
   margin-left: 15px;
   
+}
+
+p{
+  color: #a5b2b2;
+
 }
