@@ -26,17 +26,32 @@
 
 nav{
   height: 100px;
-  margin-top: 20px;
+  margin-top: 40px;
  
   margin-bottom: 20px;
 }
 
 .banner{
+  background-image: url("../img/banner.jpg");
+  
+  
+  background-position: 50%;
   height: 500px;
   margin-bottom: 20px;
-  background-color: blueviolet;
-
+  width: 100%;
 }
+
+.tex-banner{
+  position: absolute;
+  top: 500px;
+  left: 300px;
+}
+
+  
+
+  
+
+
 
 main{
   width: 100%;
@@ -69,6 +84,8 @@ nav li a:hover{
   margin-bottom: 20px;
 }
 
+
+
 .col{
   float: left;
   background-color: cadetblue ;
@@ -91,7 +108,7 @@ footer{
   text-align: center;
 }
 
-span::after{
+footer span::after{
   content: "\2764";
   color: #7bbd6b;
   padding-left: 5px;
