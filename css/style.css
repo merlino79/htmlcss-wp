@@ -82,11 +82,17 @@ nav li a:hover{
 
 .title{
   height: 100px;
-  
+  margin-top: 20px;
   
   margin-bottom: 20px;
 }
+.title h1 {
+  font-size: 45px;
+}
 
+.font-title{
+  color: #a5b2b2;
+}
 
 
 .col{
